@@ -1,13 +1,23 @@
 .page {
-  max-width: 880px;
-  min-width: 320px;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 120px 1fr 168px;
+  background-color: #fff;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-weight: 400;
+  color: #000;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 767px) {
-  .page {
-    grid-template-rows: 87px 1fr 130px;
-  }
-}
+/* section,
+div,
+header,
+footer,
+main,
+input,
+button,
+ul, li, p, a, h1, h2, h3, h4 {
+  outline: 1px solid blue;
+} */

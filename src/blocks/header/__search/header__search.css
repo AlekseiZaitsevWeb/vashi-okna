@@ -1,0 +1,8 @@
+.header__search {
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1px;
+  flex-wrap: nowrap;
+}

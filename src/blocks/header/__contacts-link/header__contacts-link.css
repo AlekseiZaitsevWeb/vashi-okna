@@ -1,0 +1,22 @@
+.header__contacts-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header__contacts-link:link {
+  color: #000;
+}
+
+.header__contacts-link:active {
+  color: #000;
+}
+
+.header__contacts-link:visited {
+  color: #000;
+}

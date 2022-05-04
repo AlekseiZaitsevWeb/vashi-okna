@@ -1,0 +1,17 @@
+.header__contacts-link_phone {
+  font-weight: 700;
+  font-size: 18px;
+  color: #7D4670;
+}
+
+.header__contacts-link_phone:link {
+  color: #7D4670;
+}
+
+.header__contacts-link_phone:active {
+  color: #7D4670;
+}
+
+.header__contacts-link_phone:visited {
+  color: #7D4670;
+}

@@ -1,0 +1,7 @@
+.header__menu {
+  margin-left: auto;
+  margin-top: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}

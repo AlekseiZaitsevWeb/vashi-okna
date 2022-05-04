@@ -1,0 +1,6 @@
+.header__right {
+  margin-top: 27px;
+  width: 178px;
+  display: flex;
+  flex-direction: column;
+}
