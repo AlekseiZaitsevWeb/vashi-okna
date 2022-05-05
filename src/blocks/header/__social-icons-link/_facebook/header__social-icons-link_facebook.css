@@ -1,0 +1,10 @@
+.header__social-icons-link_facebook {
+  background-image: url(../../../../images/icon-facebook.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 8px 17px;
+}
+
+.header__social-icons-link_facebook:hover {
+  background-image: url(../../../../images/icon-facebook-active.svg);
+}

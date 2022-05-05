@@ -11,7 +11,7 @@
   src: url(./fonts/Robotomedium.woff) format('woff'),
        url(./fonts/Robotomedium.woff2) format('woff2');
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Bold 700 */
@@ -19,7 +19,7 @@
   src: url(./fonts/Robotobold.woff) format('woff'),
        url(./fonts/Robotobold.woff2) format('woff2');
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /* Black 900 */
@@ -27,5 +27,5 @@
   src: url(./fonts/Robotoblack.woff) format('woff'),
        url(./fonts/Robotoblack.woff2) format('woff2');
   font-family: 'Roboto';
-  font-weight: 400;
+  font-weight: 900;
 }

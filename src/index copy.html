@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Оконные изделия">
+  <meta name="keywords" content="Оконные изделия">
+  <title>Оконные изделия</title>
+
+  <style>
+    /* стили для элемента body */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+
+    /* дополнительные стили для этого примера */
+    .itcss__items {
+      counter-reset: slide;
+    }
+
+    .itcss__item {
+      counter-increment: slide;
+    }
+
+    .itcss__item>div::before {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <a href="/"><img src="<%=require('./images/logo.svg')%>" alt="Оконные изделия" class="header__logo"></a>
+      <nav class="header__menu">
+        <div class="header__contacts">
+          <ul class="header__contacts-block">
+            <li class="header__contacts-item"><a href="tel:+74742352212" class="header__contacts-link header__contacts-link_phone link">8 (4742) 35-22-12</a></li>
+            <li class="header__contacts-item"><a href="mailto:vlad@htmlbook.ru" class="header__contacts-link header__contacts-link_email link">info@mail.ru</a></li>
+          </ul>
+          <ul class="header__contacts-menu">
+            <li class="header__contacts-item"><a href="/" class="header__contacts-link link">Схема проезда</a></li>
+            <li class="header__contacts-item"><a href="/" class="header__contacts-link link">Реквизиты</a></li>
+          </ul>
+        </div>
+        <ul class="header__top-menu">
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">О компании</a></li>
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Каталог</a></li>
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Отзывы</a></li>
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Проекты</a></li>
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Калькулятор</a></li>
+          <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__right">
+        <ul class="header__social-icons">
+          <li><a href="/" class="header__social-icons-link header__social-icons-link_vk"></a></li>
+          <li><a href="/" class="header__social-icons-link header__social-icons-link_facebook"></a></li>
+          <li><a href="/" class="header__social-icons-link header__social-icons-link_twitter"></a></li>
+        </ul>
+        <form name="search" action="#" class="header__search">
+          <input name="text-search" type="text" class="header__search-input" minlength="3" required>
+          <button class="header__search-button link" type="submit"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+
+<!-- Разметка слайдера -->
+<div class="itcss">
+  <div class="itcss__wrapper">
+    <div class="itcss__items">
+      <div class="itcss__item">
+        <div class="slider__item-containet">
+          <div class="slider__item-block">
+            <h1 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h1>
+            <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+            <button class="slider__item-button link">Вызвать замерщика</button>
+          </div>
+          <ul class="slider__item-options">
+            <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+            <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+            <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+            <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+          </ul>
+        </div>
+      </div>
+      <div class="itcss__item">
+        <div style="height: 250px; background: #607d8b;"></div>
+      </div>
+      <div class="itcss__item">
+        <div style="height: 250px; background: #f44336;"></div>
+      </div>
+      <div class="itcss__item">
+        <div style="height: 250px; background: #4caf50;"></div>
+      </div>
+    </div>
+  </div>
+  <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+  <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+  <section class="slider">
+    <div class="slider__container">
+      <div class="slider__wrapper">
+        <ul class="slider__items">
+          <li class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h1 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h1>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
+            </div>
+          </li>
+          <li class="slider__item">
+            <!-- Контент 2 слайда -->
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
+            </div>
+          </li>
+          <li class="slider__item">
+            <!-- Контент 3 слайда -->
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="#" class="slider__control" data-slide="prev"></a>
+    <a href="#" class="slider__control" data-slide="next"></a>
+
+  </section>
+  <main class="content">
+  </main>
+  <footer class="footer">
+  </footer>
+</body>
+</html>

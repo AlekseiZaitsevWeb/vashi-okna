@@ -1,0 +1,7 @@
+.header__contacts-block {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 13px;
+}

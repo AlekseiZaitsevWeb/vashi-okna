@@ -1,0 +1,22 @@
+.header__top-menu-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header__top-menu-link:link {
+  color: #000;
+}
+
+.header__top-menu-link:active {
+  color: #000;
+}
+
+.header__top-menu-link:visited {
+  color: #000;
+}
