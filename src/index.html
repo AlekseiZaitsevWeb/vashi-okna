@@ -32,10 +32,10 @@
         </ul>
       </nav>
       <div class="header__right">
-        <ul class="header__social-icons">
-          <li><a href="/" class="header__social-icons-link header__social-icons-link_vk"></a></li>
-          <li><a href="/" class="header__social-icons-link header__social-icons-link_facebook"></a></li>
-          <li><a href="/" class="header__social-icons-link header__social-icons-link_twitter"></a></li>
+        <ul class="social">
+          <li><a href="/" class="social__link social__link_vk"></a></li>
+          <li><a href="/" class="social__link social__link_facebook"></a></li>
+          <li><a href="/" class="social__link social__link_twitter"></a></li>
         </ul>
         <form name="search" action="#" class="header__search">
           <input name="text-search" type="text" class="header__search-input" minlength="3" required>
@@ -44,101 +44,215 @@
       </div>
     </div>
   </header>
-  <div class="slider">
-    <div class="slider__wrapper">
-      <div class="slider__items">
-        <div class="slider__item">
-          <div class="slider__item-containet">
-            <div class="slider__item-block">
-              <h1 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h1>
-              <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
-              <button class="slider__item-button link">Вызвать замерщика</button>
+  <main>
+    <section class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__items">
+          <div class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h1 class="slider__item-header">Пластиковые <span class="slider__item-header_big">ОКНА</span></h1>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
             </div>
-            <ul class="slider__item-options">
-              <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
-              <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
-              <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
-              <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
-            </ul>
           </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-containet">
-            <div class="slider__item-block">
-              <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№2</span></h2>
-              <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
-              <button class="slider__item-button link">Вызвать замерщика</button>
+          <div class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№2</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
             </div>
-            <ul class="slider__item-options">
-              <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
-              <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
-              <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
-              <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
-            </ul>
           </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-containet">
-            <div class="slider__item-block">
-              <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№3</span></h2>
-              <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
-              <button class="slider__item-button link">Вызвать замерщика</button>
+          <div class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№3</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
             </div>
-            <ul class="slider__item-options">
-              <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
-              <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
-              <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
-              <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
-            </ul>
           </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-containet">
-            <div class="slider__item-block">
-              <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№4</span></h2>
-              <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
-              <button class="slider__item-button link">Вызвать замерщика</button>
+          <div class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№4</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
             </div>
-            <ul class="slider__item-options">
-              <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
-              <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
-              <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
-              <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
-            </ul>
           </div>
-        </div>
-        <div class="slider__item">
-          <div class="slider__item-containet">
-            <div class="slider__item-block">
-              <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№5</span></h2>
-              <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
-              <button class="slider__item-button link">Вызвать замерщика</button>
+          <div class="slider__item">
+            <div class="slider__item-containet">
+              <div class="slider__item-block">
+                <h2 class="slider__item-header">Слайд<br><span class="slider__item-header_big">№5</span></h2>
+                <p class="slider__item-text"><span class="slider__item-text_big">20%</span><br>дополнительная скидка<br>при заключении договора<br>во время замера</p>
+                <button class="slider__item-button link">Вызвать замерщика</button>
+              </div>
+              <ul class="slider__item-options">
+                <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
+                <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
+                <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
+                <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
+              </ul>
             </div>
-            <ul class="slider__item-options">
-              <li class="slider__item-option slider__item-option_eco">Экологичный профиль</li>
-              <li class="slider__item-option slider__item-option_warm">Улучшеная теплоизоляция</li>
-              <li class="slider__item-option slider__item-option_warranty">Гарантия 5 лет</li>
-              <li class="slider__item-option slider__item-option_frost">Устойчивость к морозу</li>
-            </ul>
           </div>
         </div>
       </div>
+      <div class="slider__control-block">
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></button>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></button>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="catalog__container">
+        <h2 class="title catalog__title">Продукция и услуги</h2>
+        <ul class="catalog__items">
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/plastikovie-okna.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Пластиковые<br>окна</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/alyuminievie-okna-i-vitraji.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Алюминиевые<br>окна и витражи</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/vhodnie-pvx-i-alyuminievie-dveri.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Входные ПВХ и алюминиевые двери</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/mejkomnatnie-dveri.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Межкомнатные<br>двери</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/otdelka-balkonov.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Отделка<br>балконов</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/interernaya-otdelka-balkonov.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Интерьерная отделка балконов</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/jalyuzi.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Жалюзи</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/shtori.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Шторы</p>
+            </a>
+          </li>
+          <li class="catalog__item catalog__item_column">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/rolstavni.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Рольставни</p>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <a href="/" class="catalog__item-link">
+              <img class="catalog__item-img" src="<%=require('./images/catalog/vorota-i-shlagbaumi.jpg')%>" alt="Пластиковые окна">
+              <p class="catalog__item-text">Ворота и шлагбаумы</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="options">
+      <div class="options__container">
+        <h2 class="title options__title">Наши преимущества</h2>
+        <ul class="options__items">
+          <li class="options__item">
+            <img class="options__icon" src="<%=require('./images/icon-quality.svg')%>" alt="Высокое качество">
+            <p class="options__text">Высокое качество</p>
+          </li>
+          <li class="options__item">
+            <img class="options__icon" src="<%=require('./images/icon-reliability.svg')%>" alt="Надежность">
+            <p class="options__text">Надежность</p>
+          </li>
+          <li class="options__item">
+            <img class="options__icon" src="<%=require('./images/icon-price.svg')%>" alt="Выгодная цена">
+            <p class="options__text">Выгодная цена</p>
+          </li>
+          <li class="options__item">
+            <img class="options__icon" src="<%=require('./images/icon-ecology.svg')%>" alt="Экологичность">
+            <p class="options__text">Экологичность</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <a href="/"><img src="<%=require('./images/logo.svg')%>" alt="Оконные изделия" class="footer__logo"></a>
+      <div class="footer__info">
+        <div class="footer__links">
+          <nav class="footer__menu">
+            <ul class="footer__menu-items">
+              <li class="footer__menu-item"><a href="/" class="footer__menu-link link">О компании</a></li>
+              <li class="footer__menu-item"><a href="/" class="footer__menu-link link">Каталог</a></li>
+              <li class="footer__menu-item"><a href="/" class="footer__menu-link link">Проекты</a></li>
+              <li class="footer__menu-item"><a href="/" class="footer__menu-link link">Контакты</a></li>
+              <li class="footer__menu-item"><a href="/" class="footer__menu-link link">Отзывы</a></li>
+            </ul>
+          </nav>
+          <div class="footer__contacts">
+            <ul class="footer__contacts-block">
+              <li class="footer__contacts-item"><a href="tel:+74742352212" class="footer__contacts-link footer__contacts-link_phone link">8 (4742) 35-22-12</a></li>
+              <li class="footer__contacts-item"><a href="mailto:vlad@htmlbook.ru" class="footer__contacts-link footer__contacts-link_email link">info@mail.ru</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__social">
+          <p class="footer__copyright"></p>
+          <p class="footer__social-text"></p>
+          <ul class="social">
+            <li><a href="/" class="social__link social__link_vk"></a></li>
+            <li><a href="/" class="social__link social__link_facebook"></a></li>
+            <li><a href="/" class="social__link social__link_twitter"></a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="slider__control-block">
-      <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></button>
-      <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></button>
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
+  </footer>
 </body>
 </html>

@@ -1,0 +1,5 @@
+.catalog__item-img {
+  width: 224px;
+  height: 262px;
+  object-fit: cover;
+}

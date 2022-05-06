@@ -1,10 +1,10 @@
-.header__social-icons-link_vk {
+.social__link_vk {
   background-image: url(../../../../images/icon-vk.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 19px 11px;
 }
 
-.header__social-icons-link_vk:hover {
+.social__link_vk:hover {
   background-image: url(../../../../images/icon-vk-active.svg);
 }
