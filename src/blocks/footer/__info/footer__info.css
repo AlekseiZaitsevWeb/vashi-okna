@@ -1,0 +1,8 @@
+.footer__info {
+  box-sizing: border-box;
+  margin-left: 52px;
+  padding-left: 162px;
+  width: 100%;
+  background: url(../../../images/footer-line.svg) repeat-x;
+  background-position: 0 -1px;
+}

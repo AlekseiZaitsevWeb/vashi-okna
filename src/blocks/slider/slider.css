@@ -163,7 +163,7 @@
   max-width: 1146px;
   display: flex;
   align-items: flex-start;
-  height: 775px;
+  min-height: 775px;
   background-image: url("../../images/okno.png");
   background-repeat: no-repeat;
   background-size: 474px 658px;

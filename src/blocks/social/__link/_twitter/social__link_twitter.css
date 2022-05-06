@@ -1,10 +1,10 @@
-.header__social-icons-link_twitter {
+.social__link_twitter {
   background-image: url(../../../../images/icon-twitter.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 16px 13px;
 }
 
-.header__social-icons-link_twitter:hover {
+.social__link_twitter:hover {
   background-image: url(../../../../images/icon-twitter-active.svg);
 }
