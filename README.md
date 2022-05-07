@@ -14,7 +14,7 @@
 
 :white_check_mark: БЭМ
 
-:white_check_mark: Адптив (desktop, tablet, mobile)
+:white_check_mark: Адаптив (desktop, tablet, mobile)
 
 :white_check_mark: PerfectPixel
 
