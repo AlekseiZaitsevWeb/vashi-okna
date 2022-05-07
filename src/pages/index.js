@@ -9,11 +9,11 @@ const slider = new ItcSimpleSlider('.slider', {
   swipe: false
 });
 
-const nodeList = (document.querySelectorAll('.slider__control_next'));
-let i = 0;
-nodeList.forEach(el => {
-  if(i > 0) {
-    el.remove();
-  }
-  i += 1;
-});
+// const nodeList = (document.querySelectorAll('.slider__control_next'));
+// let i = 0;
+// nodeList.forEach(el => {
+//   if(i > 0) {
+//     el.remove();
+//   }
+//   i += 1;
+// });

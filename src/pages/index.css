@@ -61,12 +61,10 @@
 @import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/footer/__contacts-block/footer__contacts-block.css);
-@import url(../blocks/footer/__contacts-item/footer__contacts-item.css);
 @import url(../blocks/footer/__contacts-link/footer__contacts-link.css);
-@import url(../blocks/footer/__contacts-link/_phone/footer__contacts-link_phone.css)
-;
+@import url(../blocks/footer/__contacts-link/_phone/footer__contacts-link_phone.css);
 @import url(../blocks/footer/__contacts-link/_email/footer__contacts-link_email.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-line/footer__copyright-line.css);
 @import url(../blocks/footer/__social-text/footer__social-text.css);
