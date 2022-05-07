@@ -1,3 +1,15 @@
 .footer__menu-items {
-  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 22px;
+  row-gap: 6px;
+}
+
+@media screen and (max-width: 1018px) {
+  .footer__menu-items {
+    display: none;
+  }
 }

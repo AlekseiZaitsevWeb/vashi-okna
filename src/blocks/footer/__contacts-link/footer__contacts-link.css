@@ -1,3 +1,40 @@
 .footer__contacts-link {
-  
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.footer__contacts-link:link {
+  color: #fff;
+}
+
+.footer__contacts-link:active {
+  color: #fff;
+}
+
+.footer__contacts-link:visited {
+  color: #fff;
+}
+
+@media screen and (max-width: 725px) {
+  .footer__contacts-link {
+    color: #000;
+  }
+
+  .footer__contacts-link:link {
+    color: #000;
+  }
+
+  .footer__contacts-link:active {
+    color: #000;
+  }
+
+  .footer__contacts-link:visited {
+    color: #000;
+  }
 }

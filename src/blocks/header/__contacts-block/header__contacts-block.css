@@ -5,3 +5,9 @@
   display: flex;
   gap: 13px;
 }
+
+@media screen and (max-width: 840px) {
+  .header__contacts-block {
+    flex-direction: column;
+  }
+}

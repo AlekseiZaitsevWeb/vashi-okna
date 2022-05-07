@@ -1,3 +1,39 @@
 .footer__contacts-link_phone {
-  
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer__contacts-link_phone::before {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: -20px;
+  width: 11px;
+  height: 10px;
+  background: url(../../../../images/icon-phone.svg) no-repeat;
+}
+
+@media screen and (max-width: 833px) {
+  .footer__contacts-link_phone {
+    font-size: 20px;
+  }
+
+  .footer__contacts-link_phone::before {
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .footer__contacts-link_phone::before {
+    background: url(../../../../images/icon-phone-black.svg) no-repeat;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__contacts-link_phone {
+    margin-left: 20px;
+  }
 }

@@ -1,8 +1,26 @@
 .footer__info {
   box-sizing: border-box;
+  min-height: 214px;
   margin-left: 52px;
-  padding-left: 162px;
+  padding: 46px 0 0 185px;
   width: 100%;
   background: url(../../../images/footer-line.svg) repeat-x;
   background-position: 0 -1px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1018px) {
+  .footer__info {
+    gap: 31px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .footer__info {
+    background: #F2F2F2;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }

@@ -1,12 +1,8 @@
-# Проект: Место :sunrise_over_mountains:
+# Проект: vashi-okna :sunrise_over_mountains:
 
 **Интро**
 
-Учебный проект о красивых местах на курсе **Веб-разработчик плюс** в **Яндекс.Практикум**.
-Командная разработка, участники:
-* [Андрей Милютин](https://github.com/Aventhorh)
-* [Владимир Богданов](https://github.com/elmechanicus)
-* [Алексей Зайцев](https://github.com/AlekseiZaitsevWeb)
+Тестовое задание.
 
 **Используемые технологии:**
 
@@ -14,30 +10,22 @@
 
 :white_check_mark: CSS (flex, grid)
 
-:white_check_mark: БЭМ
-
-:white_check_mark: Git, Bash
-
 :white_check_mark: JavaScript
 
-:white_check_mark: Валидация форм
+:white_check_mark: БЭМ
+
+:white_check_mark: Адаптив (desktop, tablet, mobile)
+
+:white_check_mark: PerfectPixel
 
 :white_check_mark: Webpack
 
-:white_check_mark: API
-
-:white_check_mark: ООП
+:white_check_mark: Git, Bash
 
 **Сайт на GH Pages**
 
-* [сайт](https://alekseizaitsevweb.github.io/mesto-project/index.html)
+* [Свёрстанная страница](https://alekseizaitsevweb.github.io/vashi-okna/index.html)
 
 **Figma**
 
-* [Макет в Figma 5](https://www.figma.com/file/bjyvbKKJN2naO0ucURl2Z0/JavaScript.-Sprint-5?node-id=0%3A1)
-
-* [Макет в Figma 6](https://www.figma.com/file/kRVLKwYG3d1HGLvh7JFWRT/JavaScript.-Sprint-6?node-id=0%3A1)
-
-* [Макет в Figma 9](https://www.figma.com/file/PSdQFRHoxXJFs2FH8IXViF/JavaScript-9-sprint?node-id=0%3A1)
-
-![Проект Место](https://github.com/AlekseiZaitsevWeb/mesto-project/blob/main/readme.png "Проект Место")
+* [Макет в Figma](https://www.figma.com/file/BmNmR121Ak4xzvjUwrTw0c/vashi-okna?node-id=1%3A3)

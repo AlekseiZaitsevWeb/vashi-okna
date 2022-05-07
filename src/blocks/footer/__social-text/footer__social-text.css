@@ -1,3 +1,18 @@
 .footer__social-text {
-  
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-right: 12px;
+  padding-top: 8px;
+  min-width: 66px;
+}
+
+@media screen and (max-width: 1018px) {
+  .footer__social-text {
+    display: none;
+ }
 }

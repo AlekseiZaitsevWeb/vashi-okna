@@ -1,3 +1,17 @@
 .footer__links {
-  
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1162px) {
+  .footer__links {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__links {
+    justify-content: center;
+    padding-right: 0;
+  }
 }

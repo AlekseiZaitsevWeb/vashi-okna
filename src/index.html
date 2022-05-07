@@ -31,6 +31,7 @@
           <li class="header__top-menu-item"><a href="/" class="header__top-menu-link link">Контакты</a></li>
         </ul>
       </nav>
+      <button class="header__mobile-menu-button link" type="button"></button>
       <div class="header__right">
         <ul class="social">
           <li><a href="/" class="social__link social__link_vk"></a></li>
@@ -235,16 +236,15 @@
               <li class="footer__menu-item"><a href="/" class="footer__menu-link link">Отзывы</a></li>
             </ul>
           </nav>
-          <div class="footer__contacts">
-            <ul class="footer__contacts-block">
-              <li class="footer__contacts-item"><a href="tel:+74742352212" class="footer__contacts-link footer__contacts-link_phone link">8 (4742) 35-22-12</a></li>
-              <li class="footer__contacts-item"><a href="mailto:vlad@htmlbook.ru" class="footer__contacts-link footer__contacts-link_email link">info@mail.ru</a></li>
-            </ul>
-          </div>
+          <ul class="footer__contacts">
+            <li><a href="tel:+74742352212" class="footer__contacts-link footer__contacts-link_phone link">8 (4742) 35-22-12</a></li>
+            <li><a href="mailto:info@mail.ru" class="footer__contacts-link footer__contacts-link_email link">info@mail.ru</a></li>
+          </ul>
         </div>
         <div class="footer__social">
-          <p class="footer__copyright"></p>
-          <p class="footer__social-text"></p>
+          <p class="footer__copyright">© Оконные системы, 2021</p>
+          <span class="footer__copyright-line"></span>
+          <p class="footer__social-text">Соц. сети:</p>
           <ul class="social">
             <li><a href="/" class="social__link social__link_vk"></a></li>
             <li><a href="/" class="social__link social__link_facebook"></a></li>
@@ -254,5 +254,27 @@
       </div>
     </div>
   </footer>
+  <section class="mobile-menu">
+    <nav>
+      <ul class="mobile-menu__navigation">
+        <li><a href="/" class="mobile-menu__item link">О компании</a></li>
+        <li><a href="/" class="mobile-menu__item link">Каталог</a></li>
+        <li><a href="/" class="mobile-menu__item link">Отзывы</a></li>
+        <li><a href="/" class="mobile-menu__item link">Проекты</a></li>
+        <li><a href="/" class="mobile-menu__item link">Калькулятор</a></li>
+        <li><a href="/" class="mobile-menu__item link">Контакты</a></li>
+        <li><a href="/" class="mobile-menu__item link">Схема проезда</a></li>
+        <li><a href="/" class="mobile-menu__item link">Реквизиты</a></li>
+      </ul>
+    </nav>
+    <ul class="social mobile-menu__social">
+      <li><a href="/" class="social__link social__link_vk"></a></li>
+      <li><a href="/" class="social__link social__link_facebook"></a></li>
+      <li><a href="/" class="social__link social__link_twitter"></a></li>
+    </ul>
+    <span class="mobile-menu__logo">
+      <img class="mobile-menu__img" src="<%=require('./images/logo.svg')%>" alt="Оконные изделия">
+    </span>
+  </section>
 </body>
 </html>

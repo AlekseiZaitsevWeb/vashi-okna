@@ -17,3 +17,9 @@
   height: 4px;
   background-color: #7E7753;
 }
+
+@media screen and (max-width: 438px) {
+  .title {
+    font-size: 28px;
+  }
+}

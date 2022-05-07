@@ -1,3 +1,31 @@
 .footer__social {
-  
+  box-sizing: border-box;
+  display: flex;
+  padding-right: 2px;
+  min-width: 66px;
+}
+
+@media screen and (max-width: 1162px) {
+  .footer__social {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .footer__social {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__social {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__social {
+    justify-content: center;
+    padding-right: 0;
+  }
 }
