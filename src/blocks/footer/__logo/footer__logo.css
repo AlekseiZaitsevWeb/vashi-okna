@@ -2,3 +2,15 @@
   width: 290px;
   margin-top: 61px;
 }
+
+@media screen and (max-width: 1162px) {
+  .footer__logo {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__logo {
+    padding-left: 0;
+  }
+}

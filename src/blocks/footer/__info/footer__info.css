@@ -1,6 +1,6 @@
 .footer__info {
   box-sizing: border-box;
-  height: 214px;
+  min-height: 214px;
   margin-left: 52px;
   padding: 46px 0 0 185px;
   width: 100%;
@@ -9,4 +9,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media screen and (max-width: 1018px) {
+  .footer__info {
+    gap: 31px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .footer__info {
+    background: #F2F2F2;
+    margin-left: 0;
+    padding-left: 0;
+  }
 }

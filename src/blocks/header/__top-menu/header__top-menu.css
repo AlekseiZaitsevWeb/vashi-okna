@@ -5,3 +5,9 @@
   display: flex;
   gap: 22px;
 }
+
+@media screen and (max-width: 840px) {
+  .header__top-menu {
+    display: none;
+  }
+}

@@ -20,3 +20,21 @@
 .footer__contacts-link:visited {
   color: #fff;
 }
+
+@media screen and (max-width: 725px) {
+  .footer__contacts-link {
+    color: #000;
+  }
+
+  .footer__contacts-link:link {
+    color: #000;
+  }
+
+  .footer__contacts-link:active {
+    color: #000;
+  }
+
+  .footer__contacts-link:visited {
+    color: #000;
+  }
+}

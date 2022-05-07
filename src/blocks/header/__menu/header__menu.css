@@ -5,3 +5,22 @@
   flex-direction: column;
   gap: 17px;
 }
+
+@media screen and (max-width: 1015px) {
+  .header__menu {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__menu {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__menu {
+    display: none;
+  }
+}

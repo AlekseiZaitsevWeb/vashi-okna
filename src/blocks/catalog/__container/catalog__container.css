@@ -1,6 +1,7 @@
 .catalog__container {
   width: 100%;
   max-width: 1146px;
+  min-width: 300px;
   margin: 0 auto;
   padding: 49px 0 59px;
 }

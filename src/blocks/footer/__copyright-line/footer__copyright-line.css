@@ -5,3 +5,9 @@
   background-color: #989797;
   margin: 19px 8px 0 10px;
 }
+
+@media screen and (max-width: 1018px) {
+  .footer__copyright-line {
+    display: none;
+ }
+}

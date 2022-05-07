@@ -8,3 +8,9 @@
   align-items: flex-end;
   margin-top: 2px;
 }
+
+@media screen and (max-width: 550px) {
+  .footer__contacts {
+    align-items: center;
+  }
+}

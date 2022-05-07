@@ -24,6 +24,7 @@
 @import url(../blocks/header/__top-menu/header__top-menu.css);
 @import url(../blocks/header/__top-menu-item/header__top-menu-item.css);
 @import url(../blocks/header/__top-menu-link/header__top-menu-link.css);
+@import url(../blocks/header/__mobile-menu-button/header__mobile-menu-button.css);
 @import url(../blocks/header/__right/header__right.css);
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__search-input/header__search-input.css);
@@ -68,3 +69,10 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__copyright-line/footer__copyright-line.css);
 @import url(../blocks/footer/__social-text/footer__social-text.css);
+
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/_opened/mobile-menu_opened.css);
+@import url(../blocks/mobile-menu/__navigation.css/mobile-menu__navigation.css);
+@import url(../blocks/mobile-menu/__item/mobile-menu__item.css);
+@import url(../blocks/mobile-menu/__social/mobile-menu__social.css);
+@import url(../blocks/mobile-menu/__logo/mobile-menu__logo.css);

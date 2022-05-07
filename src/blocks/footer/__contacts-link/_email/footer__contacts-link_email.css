@@ -12,3 +12,15 @@
   height: 11px;
   background: url(../../../../images/icon-email.svg) no-repeat;
 }
+
+@media screen and (max-width: 725px) {
+  .footer__contacts-link_email::before {
+    background: url(../../../../images/icon-email-black.svg) no-repeat;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer__contacts-link_email {
+    margin-left: 20px;
+  }
+}

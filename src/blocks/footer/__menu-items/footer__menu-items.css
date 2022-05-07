@@ -7,3 +7,9 @@
   column-gap: 22px;
   row-gap: 6px;
 }
+
+@media screen and (max-width: 1018px) {
+  .footer__menu-items {
+    display: none;
+  }
+}

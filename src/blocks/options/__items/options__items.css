@@ -7,3 +7,19 @@
   justify-content: center;
   gap: 5px
 }
+
+@media screen and (max-width: 942px) {
+  .options__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .options__items {
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 300px;
+  }
+}
