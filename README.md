@@ -14,6 +14,8 @@
 
 :white_check_mark: БЭМ
 
+:white_check_mark: Адптив (desktop, tablet, mobile)
+
 :white_check_mark: PerfectPixel
 
 :white_check_mark: Webpack
@@ -22,7 +24,7 @@
 
 **Сайт на GH Pages**
 
-* [сайт](https://alekseizaitsevweb.github.io/vashi-okna/index.html)
+* [Свёрстанная страница](https://alekseizaitsevweb.github.io/vashi-okna/index.html)
 
 **Figma**
 
